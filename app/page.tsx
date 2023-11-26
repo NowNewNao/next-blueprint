@@ -1,6 +1,5 @@
-import Image from 'next/image';
-import { Spinner } from '@blueprintjs/core';
+import { Header } from '@/app/ui/Header';
 
 export default function Home() {
-    return <main>hello world</main>;
+    return <Header />;
 }
